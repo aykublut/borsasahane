@@ -1,22 +1,12 @@
-import React from "react";
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "../ui/card";
 import { Button } from "../ui/button";
-import { Label } from "../ui/label";
+
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="flex px-30">
+    <div id="contact" className="flex px-30 justify-center items-center">
       <div className="flex-1 flex justify-center items-center">
         <form>
           <div className="flex flex-col gap-6">
@@ -43,10 +33,10 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <div className="flex-1 flex justify-end">
+      <div className="flex-1 hidden lg:flex  justify-end">
         <Image
           src="/images/zenginn.png"
-          className="w-140 rounded-br-[300px] rounded-l-[30px] shadow-2xl shadow-green-700 border-2 border-white rounded-tr-[30px]"
+          className="w-135 rounded-br-[300px] rounded-l-[30px] shadow-2xl shadow-green-700 border-2 border-white rounded-tr-[30px]"
           width={834}
           height={864}
           alt="zengin"

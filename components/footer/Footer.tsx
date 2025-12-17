@@ -21,9 +21,15 @@ export function Footer() {
           </div>
 
           <div className="flex flex-wrap gap-2">
-            <Button variant="link">Civciv Şahane 1</Button>
-            <Button variant="link">Terms</Button>
-            <Button variant="link">Contact</Button>
+            <Button variant="link" className="text-green-600 cursor-pointer">
+              Civciv Şahane 1
+            </Button>
+            <Button variant="link" className="text-green-600 cursor-pointer">
+              Civciv Şahane 2
+            </Button>
+            <Button variant="link" className="text-green-600 cursor-pointer">
+              Civciv Şahane 2.5
+            </Button>
           </div>
         </div>
 
