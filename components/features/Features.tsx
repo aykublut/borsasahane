@@ -15,7 +15,7 @@ const Features = () => {
       className="w-full relative"
       id="features"
     >
-      <div className="bg-black/70 scroll-offset h-full  w-full absolute top-0 left-0 flex flex-col justify-center items-center text-center text-white/80 md:gap-10 gap-1">
+      <div className="bg-black/60 scroll-offset h-full  w-full absolute top-0 left-0 flex flex-col justify-center items-center text-center text-white/80 md:gap-10 gap-1">
         <h3 className="md:text-3xl text-xl">
           BENİM GİBİ ZENGİN OLMAK İSTEDİĞİNİ BİLİYORUM AMA
         </h3>
