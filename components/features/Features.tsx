@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const Features = () => {
-  const [play, setPlay] = useState<boolean>(false);
+  const [play, setPlay] = useState<boolean>(true);
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
   useEffect(() => {
@@ -10,8 +10,8 @@ const Features = () => {
   }, [play]);
   return (
     <div
-      onMouseEnter={() => setPlay(true)}
-      onMouseLeave={() => setPlay(false)}
+      // onMouseEnter={() => setPlay(true)}
+      // onMouseLeave={() => setPlay(false)}
       className="w-full relative"
       id="features"
     >
