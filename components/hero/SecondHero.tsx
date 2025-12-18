@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="secondHero" className="flex px-25 relative">
       <div className="flex-1 flex gap-7 max-md:absolute max-md:top-10 max-md:left-0 max-md:rounded-t-[50px] max-md:px-25  flex-col justify-center items-center">
         <h1 className="lg:text-5xl max-md:bg-white/70   text-xl md:text-3xl text-center font-light">
-          BORSADA KAZANMAK ÇOK KOLAY, YETER Kİ KAYBETME...
+          BORSA, BALİNALARI KUYRUĞUNDAN TAKİP ETTİĞİMİZ BİR SPOR DALIDIR.
         </h1>
         <p className="text-center text-3xl max-md:bg-white/50">
           <span className="text-green-700">Uzman Yatırımcı</span> Şevket Şahane
