@@ -7,7 +7,7 @@ import LogoLoop from "@/components/logoLoop/LogoLoop";
 
 export default function Page() {
   return (
-    <div className="pt-30 flex flex-col gap-8  ">
+    <div className="pt-25 flex flex-col gap-8  ">
       <Hero />
       <Features />
       <div className="flex flex-col gap-4">
