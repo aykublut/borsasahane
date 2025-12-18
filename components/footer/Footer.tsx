@@ -21,13 +21,13 @@ export function Footer() {
           </div>
 
           <div className="flex flex-wrap gap-2">
-            <Button variant="link" className="text-green-600 cursor-pointer">
+            <Button variant="link" className="text-green-200/90 cursor-pointer">
               Civciv Şahane 1
             </Button>
-            <Button variant="link" className="text-green-600 cursor-pointer">
+            <Button variant="link" className="text-green-200/90 cursor-pointer">
               Civciv Şahane 2
             </Button>
-            <Button variant="link" className="text-green-600 cursor-pointer">
+            <Button variant="link" className="text-green-200/90 cursor-pointer">
               Civciv Şahane 2.5
             </Button>
           </div>
@@ -42,6 +42,12 @@ export function Footer() {
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row justify-between gap-4 text-sm">
           <span>© 2025 BORSA ŞAHANE</span>
+
+          <span className="text-[11px]">
+            Bu site parodi amaçlı yapılmış olup hiçbir şekilde ticari faliyet
+            amacı taşımaz. Bu site Şevket Şahane ismindeki hayal ürünü
+            karakterin landing pagesidir
+          </span>
           <span>All rights reserved.</span>
         </div>
       </div>
